@@ -20,7 +20,7 @@ export function PackBreakdown({ requested, shipped, packs }: Props) {
         </thead>
         <tbody>
           {sorted.map((p) => (
-            <tr key={p.size} className="odd:bg-white/50">
+            <tr key={p.size} className="odd:bg-slate-700/50">
               <td className="p-1">{p.size}</td>
               <td className="p-1">{p.count}</td>
             </tr>
