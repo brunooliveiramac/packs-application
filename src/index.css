@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App layout helpers */
+body {
+  @apply bg-amber-100 text-slate-800;
+}
+
+
